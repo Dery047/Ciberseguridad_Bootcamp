@@ -1,0 +1,36 @@
+172.16.1./
+192.168.33.83
+BEL-205-LW-026 Hostname
+
+La palabra localhost equivale a la dirección 127.0.0.1
+Ping a localhost (nombre dispositivo local) 
+Estadísticas de ping para fe80::8f86:9b59:b15e:efeb%11:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 0ms, Máximo = 0ms, Media = 0ms
+
+Ping a computador compañero
+C:\Users\bel-205-lw-026>ping BEL-205-LW-017
+
+Haciendo ping a BEL-205-LW-017.UMD.LOCAL.EDU [10.13.181.171] con 32 bytes de datos:
+Respuesta desde 10.13.181.171: bytes=32 tiempo<1m TTL=128
+Respuesta desde 10.13.181.171: bytes=32 tiempo=1ms TTL=128
+Respuesta desde 10.13.181.171: bytes=32 tiempo=1ms TTL=128
+Respuesta desde 10.13.181.171: bytes=32 tiempo=1ms TTL=128
+
+Estadísticas de ping para 10.13.181.171:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 0ms, Máximo = 1ms, Media = 0ms
+C:\Users\bel-205-lw-026>nslookup bel-205-lw-026
+Servidor:  UnKnown
+Address:  10.0.38.10
+
+Nombre:  bel-205-lw-026.UMD.LOCAL.EDU
+Address:  10.13.180.69
+
+
+C:\Users\bel-205-lw-026>
+
